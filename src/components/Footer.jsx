@@ -35,13 +35,13 @@ const Footer = () => {
             </p>
 
             <div className="flex gap-3 mt-6">
-              <a
-                href="#"
+              <Link
+                to={'/signup'}
                 className="btn btn-sm btn-outline btn-primary gap-2"
               >
                 <Globe size={16} />
                 Connect
-              </a>
+              </Link>
             </div>
           </div>
 
